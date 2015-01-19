@@ -1,36 +1,22 @@
-<script>
-function submit()
-{
-	x = Math.floor(Math.random()*2+1);
-	if(document.getElementById('text').value != ""){
-		if(x == 1){alert("yes");}
-		else{alert("no");}
-		document.getElementById('text').value = "";
-	}else{
-		alert("fill the field");
-	}
-}
-</script>
-<style>
-body{
-	margin:0 auto;
-	background: dodgerblue;
-}
-h1{
-text-align: center;
-font-family: cursive;
-font-size: 100px;
-background: burlywood;
-}
-input{
-width: 100%;
-padding: 5px;
-border-bottom: 1px #333 solid;
-font-size: 50px;
-}
-</style>
-<h1>Q</h1>
-<h2>Write any question and get a yes or no answer</h2>
-<input type="text" id="text">
-<input type="submit" onclick="submit();" value="ask">
+<html>
 
+<head>
+	<link rel="stylesheet" href="style.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+	<div class="menu">
+		<a href="#" class="a">ask</a>
+		<a href="how.html" class="h">how to use</a>
+	</div>
+	<br><br>
+	<input type="text" id="text">
+	<input type="submit" value="ask" onclick="answer();"><br>
+	<h1>Questions asked:</h1>
+	<p id="q"></p>
+	<br><br><br><br>
+	<div class="p"><div class="menu">AG design &copy</div></div>
+</body>
+
+</html>
