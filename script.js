@@ -1,6 +1,7 @@
 function answer()
 {
 	var val = document.getElementById('text').value;
+	if(val == "אופק זונה?"){ alert("yes");}
 	if(val == ""){
 		alert("ask a question!");
 	}else{
