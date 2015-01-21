@@ -9,12 +9,12 @@ function answer()
 		if(x == 1)
 			{
 				alert(val+": yes");
-				document.getElementById('q').innerHTML = document.getElementById('q').innerHTML +"<p>"+val+": yes</p>";
+				document.getElementById('q').innerHTML = "<p>"+val+": yes</p>"+document.getElementById('q').innerHTML;
 			} 
 		else 
 			{
 				alert(val+": no");
-				document.getElementById('q').innerHTML = document.getElementById('q').innerHTML +"<p>"+val+": no</p>";
+				document.getElementById('q').innerHTML = "<p>"+val+": no</p>"+document.getElementById('q').innerHTML;
 			}
 	}
 	document.getElementById('text').value = "";
