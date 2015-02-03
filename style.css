@@ -1,10 +1,9 @@
 body{
 	margin:0 auto;
-	background-image:url(http://www.zingerbug.com/Backgrounds/background_images/light_blue_screen_seamless.jpg);
 	color:#333;
 }
 .menu{
-background: rgba(36, 112, 186, 1);
+background:#333;
 padding: 15px;
 box-shadow: 0 20px 20px -20px #FFFFFF inset, 0 -15px 15px -15px #FFFFFF inset;
 color: fff;
@@ -25,11 +24,10 @@ font-size: 20px;
 font-family: arial;
 }
 input{
-	width: 100%;
 padding: 5px;
+border-radius: 5px;
 font-size: 25px;
-border: 0px;
-border-bottom: 1px red solid;
+background: floralwhite;
 }
 .p{
 padding:15px;
