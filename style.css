@@ -3,9 +3,9 @@ body{
 	color:#333;
 }
 .menu{
-background:#333;
+background: #333;
 padding: 15px;
-box-shadow: 0 20px 20px -20px #FFFFFF inset, 0 -15px 15px -15px #FFFFFF inset;
+border-bottom: 1px red solid;
 color: fff;
 }
 .a{
@@ -15,6 +15,7 @@ text-decoration: none;
 color:fff;
 font-size: 20px;
 font-family: arial;
+background: brown;
 }
 .h{
 	padding: 15px;
@@ -22,12 +23,12 @@ text-decoration: none;
 color:fff;
 font-size: 20px;
 font-family: arial;
+background: brown;
 }
 input{
-padding: 5px;
-border-radius: 5px;
+padding: 10px;
 font-size: 25px;
-background: floralwhite;
+width: 100%;
 }
 .p{
 padding:15px;
@@ -40,4 +41,11 @@ h1{
 }
 #q{
 	padding:15px;
+}
+.q
+{
+	background: brown;
+color: fff;
+border-top: 2px #333 solid;
+border-bottom: 2px #333 solid;
 }
